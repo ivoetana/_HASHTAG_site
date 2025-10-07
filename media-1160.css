@@ -1,0 +1,11 @@
+@media all and (max-width: 72.5em) {
+  /* Conteúdos gratuitos */
+  .img-conteudo {
+    max-width: 41vw;
+  }
+
+  /* O que falam */
+  .container-oquefalam {
+    margin: 0 8.6rem;
+  }
+}
