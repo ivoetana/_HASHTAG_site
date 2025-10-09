@@ -1,11 +1,12 @@
 @media all and (max-width: 72.5em) {
-  /* Conteúdos gratuitos */
-  .img-conteudos {
-    max-width: 41vw;
+  html {
+    font-size: 52.25%;
   }
 
-  /* O que falam */
-  .container-oquefalam {
-    margin: 0 8.6rem;
-  }
+  /* Conteúdos gratuitos */
+  /* .img-conteudos {
+    max-width: 41vw;
+  } */
+
+
 }

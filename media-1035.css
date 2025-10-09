@@ -1,3 +1,10 @@
 @media all and (max-width: 64.7em) {
-  
+  html {
+    font-size: 50%;
+  }
+
+  /* O que falam */
+  .container-oquefalam {
+    width: 100%;
+  }
 }

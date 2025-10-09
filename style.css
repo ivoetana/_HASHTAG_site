@@ -374,6 +374,8 @@ nav ul {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .container-oquefalam {
@@ -381,6 +383,7 @@ nav ul {
   flex-flow: column;
   align-items: center;
   gap: 3.12rem;
+  width: 100%;
 }
 
 .oquefalam-titulo {
@@ -843,7 +846,6 @@ nav ul {
   right: 1rem;
   bottom: 0.8rem;
   width: 8.5rem;
-
 }
 
 .logo-whatsapp:hover {
