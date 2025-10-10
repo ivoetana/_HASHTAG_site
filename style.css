@@ -692,7 +692,7 @@ nav ul {
 
 .form-minicurso {
   display: grid;
-  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-columns: repeat(2, 2fr) auto;
   align-items: end;
   align-self: stretch;
   gap: 3.9rem;

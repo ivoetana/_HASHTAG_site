@@ -3,8 +3,27 @@
     font-size: 50%;
   }
 
+  /* Conteúdos gratuitos */
+  .img-conteudos {
+    max-width: 41vw;
+  }
+
   /* O que falam */
   .container-oquefalam {
-    width: 100%;
+    margin: 0 8.6rem;
+  }
+
+  /* footer */
+  .container-rodape {
+    gap: 3.77vw;
+    justify-content: space-between;
+
+    & .logo-footer {
+      width: 13.9vw;
+    }
+
+    & .rodape-coluna {
+      width: 39vw;
+    }
   }
 }

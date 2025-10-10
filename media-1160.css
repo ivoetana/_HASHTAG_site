@@ -3,10 +3,8 @@
     font-size: 52.25%;
   }
 
-  /* Conteúdos gratuitos */
-  /* .img-conteudos {
-    max-width: 41vw;
-  } */
-
-
+  /* footer */
+  .container-rodape {
+    width: 100%;
+  }
 }
