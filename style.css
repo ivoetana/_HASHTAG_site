@@ -82,9 +82,9 @@ nav ul {
 
 .container-hero {
   display: flex;
+  gap: 3.12rem;
   align-items: center;
-  justify-content: space-between;
-  gap: 5rem;
+  /* justify-content: space-between; */
 }
 
 .hero-botao {
@@ -97,20 +97,18 @@ nav ul {
   background-image: none;
 }
 
-.hero-frame {
-  flex: 1;
-}
-
 .iframe-video {
   aspect-ratio: 16/9;
   border-radius: 2.5rem;
+  flex: 5 !important;
+  max-width: 50%;
 }
 
 .hero-coluna {
   display: flex;
   flex-flow: column;
   gap: 2rem;
-  flex: 1;
+  flex: 6;
 }
 
 .hero-botoes {

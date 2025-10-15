@@ -2,4 +2,61 @@
   html {
     font-size: 43.75%;
   }
+
+  /* Global */
+  .secao {
+    padding: 4.88rem 2rem;
+  }
+
+  /* Hero */
+  .secao-hero {
+    background-image: url("Imagens/Formato Novo/BACKGROUN-banner-01-mobile.webp");
+
+    & .container-hero {
+      flex-flow: column;
+      max-width: 83rem;
+
+      & .hero-botoes {
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+
+      & h1,
+      & .hero-paragrafo {
+        text-align: center;
+      }
+    }
+  }
+
+  /* Conteúdos gratuitos */
+  .secao-conteudos {
+    background-image: url("Imagens/Formato Novo/bg-conteudos-mobile.webp");
+    background-position-y: bottom;
+    background-size: auto;
+    background-color: white;
+    padding-bottom: 1rem;
+
+    & .container-conteudos {
+      flex-flow: column;
+      gap: 3.32rem;
+
+      & .img-conteudos {
+        left: 0;
+        max-width: 47.8rem;
+      }
+
+      & .conteudos-coluna {
+        order: -1;
+
+        & .conteudos-titulo {
+          align-self: center;
+          max-width: 42.5rem;
+        }
+      }
+
+      & .caixas-cursos-hashtag {
+        justify-content: center;
+      }
+    }
+  }
 }
